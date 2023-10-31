@@ -12,6 +12,17 @@ This method stores a file in the directory. It takes the filename and content as
 
 This method retrieves a file from the directory. It takes the filename as a parameter, retrieves the hashed filename from a mapping, and returns the content of the file. If the file cannot be read, an error is logged to the console and null is returned.
 
+## Running the Application
+
+To run the application, you need to have Node.js and npm installed. Once you have those, you can install the dependencies and start the application:
+
+```bash
+# Install dependencies
+npm install
+
+# Start the application
+npm start
+
 ## Usage
 
 ```typescript
