@@ -1,4 +1,4 @@
-import { FS } from "./FS";
+import { FS } from "./functions/FS";
 
 const fs = new FS("./data");
 
