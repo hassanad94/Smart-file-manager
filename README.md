@@ -22,10 +22,11 @@ npm install
 
 # Start the application
 npm start
+```
 
-## Usage
+## Usage of FS Class
 
 ```typescript
 const fs = new FS();
 fs.storeFile("filename1", "a very long string1");
-console.log(fs.get("filename1")); // Outputs: "a very long string1"
+console.log(fs.get("filename1")); 
