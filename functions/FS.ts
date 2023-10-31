@@ -39,8 +39,6 @@ export class FS {
    * @returns { string | null } the content of the file
    */
   public get(filename: string): string | null {
-    // hash the filename
-
     const hash = this.filenameMapping.get(filename);
 
     if (!hash) {
